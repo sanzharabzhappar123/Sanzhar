@@ -1,4 +1,4 @@
-valid_letters = "ABCEHKMOPTXY"
+valid_letters = "ABCEHKMOPTX"
 valid_digits = "0123456789"
 
 n = int(input())

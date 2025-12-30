@@ -33,7 +33,10 @@ for key in counts:
 print()
 print()
 
-sorted_items=sorted(counts.items(), key=lambda x: x[1], reverse=True)
+def get_count(item):
+    return item[1]
+
+sorted_items = sorted(counts.items(), key=get_count, reverse=True)
 
 print(f"Sorted by frequncy: ")
 for item, count in sorted_items:

@@ -8,7 +8,7 @@ arrow_len = len(arrow1)
 max_length=250
 
 if length > max_length:
-    print(f"the length is long")
+    print("the length is long")
     exit()
 
 for i in range(length - arrow_len + 1):
