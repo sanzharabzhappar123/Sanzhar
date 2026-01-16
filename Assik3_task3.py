@@ -10,6 +10,7 @@ b2 = float(input("Треугольник 2: катет b = "))
 
 h1 = hypotenuse(a1, b1)
 h2 = hypotenuse(a2, b2)
+1
 
 print(f"Гипотенуза 1: {h1:.2f}")
 print(f"Гипотенуза 2: {h2:.2f}")
