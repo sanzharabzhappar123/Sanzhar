@@ -1,0 +1,8 @@
+first_name = input("name")
+last_name = input("last name? ")
+age = input("How old are you? ")
+phone_number = input("Your phone number? ")
+print (f"your name is {first_name}")
+print (f"your last name is {last_name}")
+print (f"your age is {age}")
+print (f"your phone number is {phone_number}")
